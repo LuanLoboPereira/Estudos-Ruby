@@ -1,0 +1,83 @@
+# RVM – Comandos Essenciais
+
+Guia prático com os principais comandos do **RVM (Ruby Version Manager)** para gerenciamento de versões do Ruby e gemsets.
+
+----------
+
+## 1 Verificação e Informações
+
+```bash
+rvm -v            # mostra a versão do RVM
+rvm list          # lista todas as versões de Ruby instaladas
+rvm list known    # lista todas as versões disponíveis para instalar
+rvm current       # mostra a versão do Ruby atualmente em uso
+rvm info          # informações detalhadas da instalação atual do Ruby
+```
+
+----------
+
+## 2 Instalar e Usar Versões do Ruby
+
+```bash
+rvm install 3.3.5        # instala Ruby 3.3.5
+rvm install 3.4.8        # instala outra versão do Ruby
+
+rvm use 3.3.5            # usa Ruby 3.3.5 temporariamente
+rvm use 3.3.5 --default  # define Ruby 3.3.5 como versão padrão
+
+rvm uninstall 3.1.0      # remove uma versão específica do Ruby
+```
+
+----------
+
+## 3 Trabalhando com Gemsets
+
+Gemsets permitem isolar gems por projeto.
+
+```bash
+rvm gemset list                # lista todos os gemsets
+rvm gemset create meu_projeto  # cria um gemset chamado "meu_projeto"
+rvm gemset use meu_projeto     # ativa o gemset
+rvm gemset delete meu_projeto  # remove o gemset
+```
+
+### Combinar Ruby + Gemset
+
+```bash
+rvm use 3.3.5@meu_projeto --default
+```
+
+---------
+
+## 4️ Gerenciar o RVM
+
+```bash
+rvm get stable        # atualiza o RVM para a versão estável
+rvm get head          # atualiza para a versão mais recente (beta/dev)
+rvm reload            # recarrega o RVM no shell atual
+
+rvm cleanup all       # remove arquivos temporários e caches
+rvm fix-permissions   # corrige problemas de permissão
+
+rvm implode           # remove completamente o RVM ( cuidado!)
+```
+
+----------
+
+## 5️ Debug e Ajuda
+
+```bash
+rvm help              # lista todos os comandos disponíveis
+rvm docs              # abre a documentação oficial
+rvm requirements      # mostra dependências para instalar o Ruby
+rvm info              # informações detalhadas da instalação atual
+```
+
+----------
+
+## 6️ Comandos Básicos de Terminal
+
+```bash
+cd praticando   # entra na pasta "praticando"
+```
+

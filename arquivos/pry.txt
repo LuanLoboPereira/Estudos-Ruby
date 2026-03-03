@@ -1,0 +1,65 @@
+Pry – Uso e Configuração
+
+-> Instalação
+
+Para instalar o **Pry**, execute no terminal:
+
+```bash
+gem install pry
+```
+
+Para iniciar a ferramenta:
+
+```bash
+pry
+```
+
+----------
+
+-> O que é o Pry?
+
+O **Pry** é um REPL avançado para Ruby, usado como alternativa ao IRB, oferecendo mais recursos para desenvolvimento e depuração.
+
+----------
+
+-> Benefícios do REPL Pry
+
+* **Indentação automática no terminal**
+* **Highlighting** (coloração de sintaxe para o código)
+
+Esses recursos tornam a leitura e escrita de código mais claras e produtivas.
+
+----------
+
+-> Usar o Pry como padrão no lugar do IRB
+
+É possível configurar o Pry para iniciar automaticamente ao chamar o `irb`.
+
+    -> 1️ Criar o arquivo de configuração
+
+    Na home do usuário:
+
+    ```bash
+    touch ~/.irbrc
+    ```
+
+    -> 2️ Configurar o arquivo `.irbrc`
+
+    Dentro do arquivo, adicione:
+
+    ```ruby
+    require 'rubygems'
+    require 'pry'
+    Pry.start
+    exit
+    ```
+
+Após isso, ao executar `irb`, o **Pry será iniciado automaticamente**.
+
+----------
+
+-> Comandos Úteis
+
+* `exit` → sair do Pry
+* `Ctrl + D` → sair do Pry
+* `:q` ou `quit` → sair do Pry

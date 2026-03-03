@@ -1,0 +1,45 @@
+IRB – Comandos Essenciais
+
+-> O que é o IRB?
+
+* **IRB (Interactive Ruby)** é um **REPL** (Read–Eval–Print Loop).
+* Funciona como um prompt interativo para **escrever, testar e entender algoritmos da linguagem Ruby** em tempo real.
+
+----------
+
+-> Comandos Básicos
+
+**Limpar a tela do IRB**
+
+```text
+CTRL + L
+```
+
+**Sair do IRB**
+
+```ruby
+exit
+# ou
+quit
+```
+
+----------
+
+-> Executar Arquivos Ruby no Terminal
+
+Para executar um arquivo `.rb` pelo terminal:
+
+```bash
+ruby nome_do_arquivo.rb
+```
+
+----------
+
+-> Exemplo Prático no IRB
+
+```ruby
+2.7.2 :001 > "Luan Lobo Pereira".reverse
+=> "ariereP oboL nauL"
+```
+
+Esse exemplo demonstra o uso de métodos nativos do Ruby diretamente no IRB para testes rápidos.
