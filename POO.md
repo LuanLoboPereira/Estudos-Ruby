@@ -11,6 +11,24 @@
 
 ---
 
+## UM Resumo dos 4 _pilares_ da POO
+
+**1->** _Abstração_
+Ação de abstrair uma entidade do mundo real e transformá-la em uma classe
+
+**2->** _Encapsulamento_
+Ato de dividir um programa em diversas partes tornando-o flexível, fácil de modificar e incluir novas funcionalidades
+
+**3->** _Herança_
+Habilidade de criar Classe com características de outra existente. A herança promove o reuso e reaproveitamento de código
+
+**4->** _Polimorfismo_
+Capacidade de utilizar um método(_Comportamento_) de diferentes formas para Objetos
+
+_Em POO chamamos as informações de **attrinutes** e os comportamentos de **metehods**_
+
+---
+
 ## Classes vs Objetos ("Formas" vs "Objeto pronto")
 
 [Aula 01 - Classes vs Objetos](/POO_ruby/01.rb)
@@ -262,11 +280,11 @@ EX:
 EX:
 
 ```ruby
-class Pessoa
+class Pessoa # Classe Pai
     attr_accessor :nome, :email
 end
 
-class PessoaFisica < Pessoa
+class PessoaFisica < Pessoa # Classe Filho herda de Classe Pai
     attr_accessor :cpf
 
     def falar(texto)
@@ -274,7 +292,7 @@ class PessoaFisica < Pessoa
     end
 end
 
-class PessoaJuridica < Pessoa
+class PessoaJuridica < Pessoa # Classe Filho herda de Classe Pai
     attr_accessor :cnpf
     def pagar
         #####
