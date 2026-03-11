@@ -3,6 +3,6 @@ source 'https://rubygems.org'
 # Instalar manual ( gem install os )
 # intalar com bundler ( bundle ) 
 
-gem 'os' # SISTEMA OPERACIONAL
+gem 'os' # SISTEMA OPERACIONAL 
 
-gem "cpf_cnpj" #VALIDAR CPF
+gem "cpf_cnpj" #VALIDAR CPF 
