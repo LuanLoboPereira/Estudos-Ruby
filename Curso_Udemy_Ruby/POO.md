@@ -2,12 +2,12 @@
 
 ## Aulas
 
-- [Aula 01 - Classes vs Objetos](/POO_ruby/01.rb)
-- [Aula 02 - Classes e Métodos](/POO_ruby/02.rb)
-- [Aula 03 - Parâmetros e Initialize ](/POO_ruby/03.rb)
-- [Aula 04 - Self, instância e Accessors](/POO_ruby/04.rb)
-- [Aula 05 - Classes e Herança](/POO_ruby/05.rb)
-- [Aula 06 - Métodos de instâncias e de classes](/POO_ruby/06.rb)
+- [Aula 01 - Classes vs Objetos](/Curso_Udemy_Ruby/POO_ruby/01.rb)
+- [Aula 02 - Classes e Métodos](/Curso_Udemy_Ruby/POO_ruby/02.rb)
+- [Aula 03 - Parâmetros e Initialize ](/Curso_Udemy_Ruby/POO_ruby/03.rb)
+- [Aula 04 - Self, instância e Accessors](/Curso_Udemy_Ruby/POO_ruby/04.rb)
+- [Aula 05 - Classes e Herança](/Curso_Udemy_Ruby/POO_ruby/05.rb)
+- [Aula 06 - Métodos de instâncias e de classes](/Curso_Udemy_Ruby/POO_ruby/06.rb)
 
 ---
 
